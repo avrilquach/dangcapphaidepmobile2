@@ -107,4 +107,25 @@ $(document).ready(function() {
 	$('.form-box-search a.cancelSearch').click(function(e){
 		$('.form-box-search').hide();
 	});
+	var customer = $('.main-customer');
+	customer.owlCarousel({
+			loop: true,
+			nav: true,
+			navText: ['<i class="fa fa-arrow-left" aria-hidden="true"></i>', '<i class="fa fa-arrow-right" aria-hidden="true"></i>'],
+			items: 1,
+			autoplay: true,
+			smartSpeed: 200,
+			responsiveClass:true,
+				responsive:{
+						0:{
+								items:1
+						},
+						768:{
+								items:1
+						},
+						1200:{
+								items:1
+						}
+				}
+	});
 });

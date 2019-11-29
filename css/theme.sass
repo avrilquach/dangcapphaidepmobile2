@@ -115,10 +115,10 @@ img
     text-align: center
     margin: 0 0 30px 0
     span
-      font-size: 45px
+      font-size: 25px
       text-transform: uppercase
   p
-    font-size: 28px
+    font-size: 16px
     color: #555555
     text-align: center
 #wrapper_mobile
@@ -126,7 +126,8 @@ img
   max-width: 640px
   margin: 0 auto
   background-color: #ebebeb
-
+  &.bg_white
+    background-color: #fff
   #header
     background-color: #dbc2c6
 
@@ -3297,7 +3298,6 @@ img
       &:hover
         color: #fff
 .menu-spa-tri-lieu
-  background: #fff
   ul
     li
       width: 555px
@@ -3315,7 +3315,7 @@ img
   .heading2
     padding: 0 0 30px 0
     a
-      width: 320px
+      width: 290px
       height: 80px
       display: block
       margin: 30px auto 0
@@ -3327,7 +3327,6 @@ img
       line-height: 80px
       text-transform: uppercase
 .main-spa-2 
-  background: #fff
   li
     width: 545px
     margin: 0 15px 0 0
@@ -3364,7 +3363,6 @@ img
       margin: 0 auto
 .main-video
   width: 100%
-  background: #fff
   li
     position: relative
     width: 555px
@@ -3390,5 +3388,204 @@ img
       i
         font-size: 50px
         color: #fff
+.main-customer
+  .bg_
+    background: #fcf7f7
+    padding: 30px 15px 70px 15px
+    text-align: center
 
-  
+    p
+      font-size: 16px
+      color: #000
+      margin: 0 0 15px 0
+
+    span.name
+      font-size: 20px
+      color: #0f890e
+      text-transform: uppercase
+
+  .caption
+    text-align: center
+    width: 235px
+    position: relative
+    left: 0
+    right: 0
+    margin: 0 auto
+    bottom: 60px
+    z-index: 10
+
+  &.owl-carousel .owl-item img
+    width: auto
+    display: block
+    margin: 0 auto
+
+  span.rating
+    margin: 10px 0 0 0
+    display: block
+
+    i
+      font-size: 20px
+      color: #a1a1a1
+      margin: 0 10px 0 0
+
+      &.green
+        color: #0f8a0e
+
+  .owl-nav
+    position: absolute
+    width: 100%
+    top: 65%
+
+    i
+      color: #b1b1b1
+      font-size: 30px
+
+    .owl-prev
+      left: 15%
+      position: absolute
+
+    .owl-next
+      right: 15%
+      position: absolute
+.section-booking
+  background: url("../img/spa/bg.jpg") right center no-repeat
+  padding: 15px
+
+  .booking
+    width: 100%
+    background: #fff
+    padding: 30px
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3)
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3)
+
+    ._top
+      margin: 0 0 30px 0
+
+      h2
+        font-size: 25px
+        text-align: center
+        text-transform: uppercase
+        margin: 0 0 10px 0
+
+      .number
+        display: -webkit-box
+        display: -ms-flexbox
+        display: flex
+        display: -webkit-flex
+        -webkit-box-pack: center
+        -ms-flex-pack: center
+        justify-content: center
+        -webkit-box-align: center
+        -ms-flex-align: center
+        align-items: center
+
+        input[type="number"]
+          border: none
+          color: #0f8a0e
+          width: 50px
+          font-size: 20px
+
+        span
+          font-size: 16px
+          color: #989898
+          margin: 0 10px 0 0
+
+    ._middle
+      h3
+        font-size: 16px
+        color: #000
+        margin: 0 5px 10px 5px
+        text-transform: uppercase
+
+      ._listdate
+        margin: 0 0 7px 0
+        display: inline-block
+        width: 100%
+
+        ._date
+          width: 33.33%
+          padding: 5px
+          float: left
+          text-align: center
+
+          span
+            display: block
+            background: #b7b7b7
+            color: #fff
+            height: 45px
+            line-height: 45px
+            border-radius: 5px
+
+          &:hover span
+            background: #0f8a0e
+
+      ._chosedate
+        display: -webkit-box
+        display: -ms-flexbox
+        display: flex
+        display: -webkit-flex
+        -webkit-box-align: center
+        -ms-flex-align: center
+        align-items: center
+        width: 100%
+        -webkit-box-pack: justify
+        -ms-flex-pack: justify
+        justify-content: space-between
+        padding: 5px
+
+        #datepicker
+          width: 40%
+          height: 45px
+          background: #fbfbfb
+          border: 1px solid #b7b7b7
+          border-radius: 5px
+          padding: 0 20px
+
+        select
+          width: 58%
+          background: #fbfbfb
+          border: 1px solid #b7b7b7
+          border-radius: 5px
+          height: 45px
+
+      ._listtime
+        margin: 10px 0 0 0
+
+        ._time
+          width: 33.33%
+          padding: 10px 5px
+          float: left
+          text-align: center
+
+          span
+            display: block
+            color: #000
+            height: 45px
+            line-height: 45px
+            border-radius: 5px
+            border: 1px solid #b7b7b7
+
+          &:hover span
+            background: #0f8a0e
+            color: #fff
+
+    ._bottom
+      padding: 0 5px
+
+      input
+        border: none
+        border-bottom: 1px solid  #707070
+        height: 45px
+        width: 100%
+        margin: 15px 0 0 0
+
+    .submit
+      width: 230px
+      height: 50px
+      border-radius: 50px
+      background: #0f890e
+      margin: 30px auto 0
+      color: #fff
+      font-size: 20px
+      text-transform: uppercase
+      display: block
