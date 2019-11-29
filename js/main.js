@@ -128,4 +128,24 @@ $(document).ready(function() {
 						}
 				}
 	});
+	var customer = $('.main-bang-gia');
+	customer.owlCarousel({
+			loop: true,
+			nav: false,
+			items: 1,
+			autoplay: true,
+			smartSpeed: 200,
+			responsiveClass:true,
+				responsive:{
+						0:{
+								items:1
+						},
+						768:{
+								items:1
+						},
+						1200:{
+								items:1
+						}
+				}
+	});
 });
