@@ -110,6 +110,26 @@ img
     right: 0
     color: #929292
     font-size: 14px
+.heading-bachhoa
+  h2
+    font-weight: 500
+    font-size: 30px
+    line-height: 35px
+    text-align: center
+    text-transform: uppercase
+    color: #0F890E
+    position: relative
+    &:after
+      content: ""
+      position: absolute
+      width: 90px
+      height: 2px
+      background: #0F890E
+      bottom: -10px
+      left: 0
+      right: 0
+      margin: 0 auto
+
 .heading2
   h2
     text-align: center
@@ -404,7 +424,157 @@ img
 
       img
         max-width: 100%
+  .products2
+    background: #fff
+    margin: 10px 0 0 0
 
+    ul li.swiper-slide
+      padding: 0 10px
+
+    .nav-tabs
+      border-bottom: none
+      -ms-flex-wrap: unset
+      flex-wrap: unset
+
+      li.swiper-slide
+        width: auto
+
+        h3
+          margin: 0 10px 0 0
+          padding: 10px 20px
+          border: 1px solid #D9D9D9
+          text-align: center
+          display: block
+          cursor: pointer
+          font-weight: 300
+          font-size: 18px
+          line-height: 21px
+          color: #414141
+          border-radius: 5px
+          &.active
+            color: #fff
+            border: 1px solid #0F890E
+            background: #0F890E
+
+    .item
+      border: 1px solid #D8D7D7
+      box-sizing: border-box
+      border-radius: 5px
+      display: block
+      padding: 10px
+      .img
+        position: relative
+        padding: 0 0 10px 0
+        margin: 0 0 10px 0
+        border-bottom: 1px solid #DCD8D8
+        span.sticker
+          padding: 0 5px
+          color: #fff
+          position: absolute
+          top: 15px
+          left: 15px
+          text-transform: uppercase
+          z-index: 5
+          background: #0f890e
+
+      h5
+        font-size: 14px
+        line-height: 24px
+        text-align: center
+        color: #212121
+        margin: 0 0 5px 0
+      p
+        font-size: 13px
+        font-style: italic
+        color: #868686
+        margin: 0 0 5px 0
+
+      span.options
+        display: -webkit-box
+        display: -ms-flexbox
+        display: flex
+        display: -webkit-flex
+        -webkit-box-align: center
+        -ms-flex-align: center
+        align-items: center
+        -webkit-box-pack: justify
+        -ms-flex-pack: justify
+        justify-content: space-between
+
+        span
+          &.price
+            display: -webkit-box
+            display: -ms-flexbox
+            display: flex
+            display: -webkit-flex
+            -webkit-box-align: center
+            -ms-flex-align: center
+            align-items: center
+            justify-content: center
+            width: 100%
+            .new
+              font-style: normal
+              font-weight: 500
+              font-size: 20px
+              line-height: 24px
+              text-align: center
+              color: #0F890E
+              display: inline-flex
+            .old
+              font-size: 12px
+              color: #636363
+              margin: 0 0 0 5px
+              text-decoration: line-through
+
+          &.rate i
+            font-size: 12px
+            color: #acacac
+
+            &.green
+              color: #0f890e
+      .add-to-cart
+        background: #0F890E
+        padding: 7px
+        border-radius: 5px
+        width: 100%
+        margin: 20px auto 0
+        display: flex
+        align-items: center
+        img
+          border-right: 1px solid #fff
+          margin: 0 5px 0 0
+          padding: 0 5px 0 0
+        span
+          text-transform: uppercase
+          font-weight: bold
+          font-size: 9px
+          line-height: 16px
+          text-transform: uppercase
+          color: #FFFFFF
+      img
+        max-width: 100%
+        display: block
+        margin: 0 auto
+    .xem-them
+      font-size: 16px
+      line-height: 19px
+      color: #0F890E !important
+      text-align: center
+      border-bottom: 1px solid #0F890E
+      padding: 0 0 5px 0
+      display: block
+      margin: 0 auto
+    .main-products
+      ul
+        li
+          width: 180px
+    .banner-bachhoa
+      ul
+        li
+          width: 300px
+          .item 
+            padding: 0
+            border: none
   .detailp
     padding: 0 0 60px 0
 
@@ -3724,7 +3894,7 @@ img
         width: 80%
 .menu_thuonghieu
   background-color: #0f8a0e !important
-  padding: 0 15px
+  padding: 0 15px 100px 15px
   .search
     background: #fff
     .search-item input[type='submit']
@@ -3742,6 +3912,7 @@ img
         background: #66b566
         float: left
         margin: 1%
+        cursor: pointer
         a
           font-size: 20px
           color: #fff
@@ -3749,6 +3920,12 @@ img
       float: left
       padding: 20px 0
       width: 100%
+      .clear
+        cursor: pointer
+        text-align: center
+        i.fa-times
+          color: #fff
+          font-size: 30px 
       ._item
         display: flex
         display: -webkit-flex

@@ -1,0 +1,104 @@
+doctype html
+html
+  include inc/head.jade
+  body.m
+    #wrapper_mobile
+      include inc/header.jade
+      include inc/banner.jade
+      section.products2.heading-bachhoa.padtp30_0
+        .container
+          h2 sản phẩm bán chạy
+          .swiper-container
+            ul.nav.nav-tabs.padtp30_0.swiper-wrapper
+              li.swiper-slide
+                h3.active.show(data-toggle='tab', href='#cate1_tab1') Trái cây
+              li.swiper-slide
+                h3(data-toggle='tab', href='#cate1_tab2') Rau củ
+              li.swiper-slide
+                h3(data-toggle='tab', href='#cate1_tab3') Hải sản
+              li.swiper-slide
+                h3(data-toggle='tab', href='#cate1_tab4') Các loại thịt
+          .tab-content
+            #cate1_tab1.tab-pane.fade.in.active.show
+              .row
+                .main-products.swiper-container.pad30_0
+                  ul.swiper-wrapper
+                    -for(i=0;i<8;i++)
+                      li.swiper-slide
+                        .item
+                          a(href="#")
+                            .img.hover-img.animated
+                              img.lazy(data-src='img/bachhoa/img3.jpg')
+                            h5 Bánh gạo One-One Gold vị Phô mai ngô gói 118g
+                            span.options
+                              span.price
+                                span.new 15.000đ
+                          a.add-to-cart
+                            img(src='img/bachhoa/cart.svg')
+                            span Thêm vào giỏ hàng
+                a.xem-them Xem thêm
+                .banner-bachhoa.pad30_0
+                  ul.swiper-wrapper
+                    li.swiper-slide
+                      a.item(href='#')
+                        img.lazy(data-src='img/bachhoa/Rectangle 187.jpg')
+                    li.swiper-slide
+                      a.item(href='#')
+                        img.lazy(data-src='img/bachhoa/Rectangle 187.jpg')
+            #cate1_tab2.tab-pane.fade
+            #cate1_tab3.tab-pane.fade
+            #cate1_tab4.tab-pane.fade
+      section.products2.heading-bachhoa.padtp30_0
+        .container
+          h2 sữa và sản phẩm 
+            br
+            | từ sữa
+          .row
+            .main-products.swiper-container.pad30_0
+              ul.swiper-wrapper
+                -for(i=0;i<8;i++)
+                  li.swiper-slide
+                    .item
+                      a(href="#")
+                        .img.hover-img.animated
+                          img.lazy(data-src='img/bachhoa/img3.jpg')
+                        h5 Bánh gạo One-One Gold vị Phô mai ngô gói 118g
+                        span.options
+                          span.price
+                            span.new 15.000đ
+                      a.add-to-cart
+                        img(src='img/bachhoa/cart.svg')
+                        span Thêm vào giỏ hàng
+            a.xem-them Xem thêm
+            .banner-bachhoa.pad30_0
+              ul.swiper-wrapper
+                li.swiper-slide
+                  a.item(href='#')
+                    img.lazy(data-src='img/bachhoa/Rectangle 187.jpg')
+                li.swiper-slide
+                  a.item(href='#')
+                    img.lazy(data-src='img/bachhoa/Rectangle 187.jpg')
+      section.products2.heading-bachhoa.pad30_0
+        .container
+          h2 sữa và sản phẩm 
+            br
+            | từ sữa
+          .row
+            .main-products.swiper-container.pad30_0
+              ul.swiper-wrapper
+                -for(i=0;i<8;i++)
+                  li.swiper-slide
+                    .item
+                      a(href="#")
+                        .img.hover-img.animated
+                          img.lazy(data-src='img/bachhoa/img3.jpg')
+                        h5 Bánh gạo One-One Gold vị Phô mai ngô gói 118g
+                        span.options
+                          span.price
+                            span.new 15.000đ
+                      a.add-to-cart
+                        img(src='img/bachhoa/cart.svg')
+                        span Thêm vào giỏ hàng
+            a.xem-them Xem thêm
+      include inc/footer.jade
+      include inc/script.jade

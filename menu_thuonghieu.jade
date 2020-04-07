@@ -1,77 +1,69 @@
 doctype html
 html
-  head
-    meta(charset='utf-8')
-    meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
-    meta(name='description', content='')
-    meta(name='author', content='')
-    meta(name='generator', content='')
-    // Load css styles
-    link(rel='stylesheet', type='text/css', href='css/bootstrap.css')
-    link(rel='stylesheet', type='text/css', href='css/owl-carousel2/owl.carousel.css')
-    link(rel='stylesheet', type='text/css', href='css/swiper.css')
-    link(rel='stylesheet', type='text/css', href='css/font-awesome.css')
-    link(rel='stylesheet', type='text/css', href='css/magnific-popup.css')
-    link(rel='stylesheet', type='text/css', href='css/theme.css')
-    title Đẳng cấp phái đẹp
-  body
-    #wrapper_mobile.menu_thuonghieu
-      // Header
-      header#header.pad40_20.header2
-        .nav-top
-          a.menu-back(href='javascript:void(0)')
-            i.fas.fa-chevron-left
-      section.search
-        form.search-item
-          input(type='text', name='search', placeholder='Kem dưỡng da')
-          input(type='submit', value='')
-          i.fa.fa-search
-      section.search_alphabet
-        ul._top
-          li
-            a(href="#") A
-          li
-            a(href="#") B
-          li
-            a(href="#") C
-          li
-            a(href="#") D
-          li
-            a(href="#") E
-          li
-            a(href="#") F
-          li 
-            a(href="#") G
-          li
-            a(href="#") I
-          li
-            a(href="#") J
-          li
-            a(href="#") K
-          li
-            a(href="#") L
-          li
-            a(href="#") M
-          li
-            a(href="#") N
-          li
-            a(href="#") S
-        ._midlle
-          ._item
-            span A
-            ul
-              -for(i=0;i<4;i++)
-                li
-                  a(href='#') Bella
-          ._item
-            span B
-            ul
-              -for(i=0;i<4;i++)
-                li
-                  a(href='#') Bella
-          ._item
-            span C
-            ul
-              -for(i=0;i<4;i++)
-                li
-                  a(href='#') Bella
+	head
+		meta(charset='utf-8')
+		meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+		meta(name='description' content='')
+		meta(name='author' content='')
+		meta(name='generator' content='')
+		// Load css styles
+		link(type='text/css' href='css/bootstrap.css' rel='stylesheet')
+		link(type='text/css' href='css/owl-carousel2/owl.carousel.css' rel='stylesheet')
+		link(type='text/css' href='css/swiper.css' rel='stylesheet')
+		link(type='text/css' href='css/font-awesome.css' rel='stylesheet')
+		link(type='text/css' href='css/magnific-popup.css' rel='stylesheet')
+		link(type='text/css' href='css/theme.css' rel='stylesheet')
+		title Đẳng cấp phái đẹp
+	body
+		#wrapper_mobile.menu_thuonghieu
+			// Header
+			header#header.pad40_20.header2
+				.nav-top
+					a.menu-back(href='javascript:void(0)')
+						i.fas.fa-chevron-left
+			section.search
+				form.search-item
+					input(name='search' type='text' placeholder='Kem dưỡng da')
+					input(type='submit' value='')
+					i.fa.fa-search
+			section.search_alphabet
+				ul._top
+					li
+						a A
+					li
+						a B
+					li
+						a C
+					li
+						a D
+					li
+						a E
+					li
+						a F
+					li 
+						a G
+					li
+						a I
+					li
+						a J
+					li
+						a K
+					li
+						a L
+					li
+						a M
+					li
+						a N
+					li
+						a S
+				._midlle._result
+					._item
+						span A
+						ul
+							-for(i=0;i<4;i++)
+								li
+									a(href='#') Bella
+					.clear
+						i.fas.fa-times
+				script(type="text/javascript" src='js/jquery.min.js')
+		script(type="text/javascript" src="js/menu.js")
