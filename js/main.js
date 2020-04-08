@@ -160,4 +160,10 @@ $(document).ready(function() {
 		margin:0,
 		dots: true,
 	});
+	$('#loadcate').click(function(e){
+		$('.loadcate').addClass('active');
+	})
+	$('.loadcate span').click(function(e){
+		$('.loadcate').removeClass('active');
+	})
 });

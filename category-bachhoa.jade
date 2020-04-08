@@ -1,0 +1,53 @@
+doctype html
+html
+  include inc/head.jade
+  body.m
+    #wrapper_mobile
+      include inc/header.jade
+      include inc/banner.jade
+      section.filter2.pad10_0
+        .item.swiper-container
+          ul.swiper-wrapper
+            li.swiper-slide
+              a#loadcate Danh mục sản phẩm
+              img(src='img/icon.png')
+            li.swiper-slide
+              a Thương hiệu
+              img(src='img/icon.png')
+            li.swiper-slide
+              a Mức giá
+              img(src='img/icon.png')
+            li.swiper-slide
+              a Xuất xứ
+              img(src='img/icon.png')
+            li.swiper-slide
+              a Bán chạy nhất
+              img(src='img/icon.png')
+      section.products2.heading-bachhoa
+        .container
+          .row
+            .main-products.pad30_0.main-products2
+              ul
+                -for(i=0;i<8;i++)
+                  li
+                    .item
+                      a(href="#")
+                        .img.hover-img.animated
+                          img.lazy(data-src='img/bachhoa/img3.jpg')
+                        h5 Bánh gạo One-One Gold vị Phô mai ngô gói 118g
+                        span.options
+                          span.price
+                            span.new 15.000đ
+                      a.add-to-cart
+                        img(src='img/bachhoa/cart.svg')
+                        span Thêm vào giỏ hàng
+            a.xem-them Xem thêm
+      .loadcate
+        h4 Danh mục sản phẩm
+        ul
+          -for(i=0;i<5;i++)
+            li
+              a(href='#') Đồ uống các loại
+        span X
+      include inc/footer.jade
+      include inc/script3.jade

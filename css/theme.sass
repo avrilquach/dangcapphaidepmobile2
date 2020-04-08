@@ -564,6 +564,7 @@ img
         margin: 20px auto 0
         display: flex
         align-items: center
+        justify-content: center
         img
           border-right: 1px solid #fff
           margin: 0 5px 0 0
@@ -592,6 +593,15 @@ img
       ul
         li
           width: 40%
+      &.main-products2
+        ul
+          li
+            width: 50%
+            float: left
+            &:nth-child(even)
+              padding: 0 0 15px 7.5px
+            &:nth-child(odd)
+              padding: 0 7.5px 15px 0              
     .banner-bachhoa
       ul
         li
@@ -4110,6 +4120,51 @@ img
       right: 0
       margin: 0 auto
       bottom: 0
+.filter2
+  background: #fff
+  .item
+    border-top: 1px solid #D8D7D7
+    border-bottom: 1px solid #D8D7D7
+    li
+      width: auto
+      padding: 10px
+      border-right: 1px solid #D8D7D7
+      img
+        margin: 0 0 0 10px
+  & + .products2
+    margin: 0 !important
+.loadcate
+  position: fixed
+  top:  0
+  z-index: 3030
+  background: #ffffff
+  width: 100%
+  height: 100%
+  display: none
+  &.active
+    display: block
+  h4
+    padding: 15px
+    font-size: 14px
+    line-height: 16px
+    color: #000000
+    background: #FAFAFA
+  span
+    position: absolute
+    top: 7px
+    right: 15px
+    font-size: 20px
+  ul
+    li
+      padding: 10px 15px
+      list-style: disc
+      list-style-position: inside
+      color: #716E6E
+      a
+        font-weight: 300
+        font-size: 14px
+        line-height: 16px
+        color: #393939
 .menu_thuonghieu
   background-color: #0f8a0e !important
   padding: 0 15px 100px 15px
