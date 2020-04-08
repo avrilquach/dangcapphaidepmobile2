@@ -3323,6 +3323,196 @@ img {
     margin: 0 0 0 15px;
     width: 80%; }
 
+.detailbh .top {
+  background: #fff;
+  padding: 0 15px 15px 15px; }
+
+.detailbh .bottom {
+  background: #fff;
+  padding: 15px; }
+
+.detailbh h1 {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 35px;
+  color: #000000;
+  margin: 0 0 10px 0; }
+
+.detailbh span.thuonghieu {
+  font-size: 16px;
+  line-height: 15px;
+  color: #B3B3B3;
+  display: block; }
+
+.detailbh .options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  clear: both;
+  margin: 10px 0; }
+  .detailbh .options span.price {
+    font-size: 30px;
+    line-height: 15px;
+    color: #ED2891;
+    font-weight: bold;
+    margin: 0 20px 0 0; }
+  .detailbh .options span.price-old {
+    font-size: 20px;
+    line-height: 15px;
+    -webkit-text-decoration-line: line-through;
+    text-decoration-line: line-through;
+    color: #B7B7B7; }
+  .detailbh .options .number {
+    position: relative; }
+    .detailbh .options .number input {
+      border: 1px solid #F0F0F0;
+      border-radius: 10px;
+      width: 140px;
+      height: 55px;
+      padding: 0 50px;
+      text-align: center; }
+    .detailbh .options .number span {
+      background: #F0F0F0;
+      font-size: 20px;
+      width: 44px;
+      height: 55px;
+      text-align: center;
+      line-height: 55px;
+      cursor: pointer; }
+      .detailbh .options .number span:first-child {
+        position: absolute;
+        left: 0;
+        border-radius: 10px 0px 0px 10px; }
+      .detailbh .options .number span:last-child {
+        position: absolute;
+        right: 0;
+        border-radius: 10px 0px 0px 10px;
+        -webkit-transform: rotate(-180deg);
+        -ms-transform: rotate(-180deg);
+        transform: rotate(-180deg); }
+  .detailbh .options.options2 {
+    margin: 20px 0;
+    display: block; }
+    .detailbh .options.options2 .add-to-cart2 {
+      width: 100%;
+      height: 55px;
+      background: #0F890E;
+      border-radius: 5px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      margin: 20px 0 0 0; }
+      .detailbh .options.options2 .add-to-cart2 img {
+        padding: 0 20px 0 0;
+        margin: 0 20px 0 0;
+        border-right: 1px solid #fff; }
+      .detailbh .options.options2 .add-to-cart2 span {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 15px;
+        text-transform: uppercase;
+        color: #FFFFFF; }
+
+.detailbh .description {
+  padding: 20px 0;
+  border-top: 1px solid #E3E3E3;
+  border-bottom: 1px solid #E3E3E3; }
+  .detailbh .description li {
+    font-weight: 500;
+    font-size: 16px;
+    color: #0F890E;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 5px 0; }
+    .detailbh .description li .img {
+      width: 50px; }
+    .detailbh .description li p {
+      width: calc(100% - 50px); }
+
+.detailbh .promotions {
+  padding: 20px 0; }
+  .detailbh .promotions li {
+    padding: 5px 0;
+    font-size: 16px; }
+    .detailbh .promotions li span {
+      font-weight: bold;
+      color: #212121;
+      float: left;
+      margin: 0 10px 0 0; }
+    .detailbh .promotions li p {
+      color: #767676; }
+
+.detailbh .gallery {
+  position: relative;
+  margin: 0 0 10px 0; }
+
+.detailbh .slider-counter {
+  width: 80px;
+  height: 40px;
+  line-height: 40px;
+  background: #EFEFEF;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 20px;
+  color: #000000;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  z-index: 12; }
+
+#thongtinsanpham {
+  background: #fff;
+  padding: 15px;
+  margin: 10px 0 0 0; }
+  #thongtinsanpham .row {
+    margin: 0 0 15px 0; }
+    #thongtinsanpham .row img {
+      margin: 0 0 10px 0; }
+    #thongtinsanpham .row h3 {
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 40px;
+      color: #000000;
+      margin: 0 0 10px 0;
+      display: block;
+      width: 100%; }
+    #thongtinsanpham .row h4 {
+      font-size: 16px;
+      color: #b3b3b3;
+      margin: 0 0 10px 0; }
+    #thongtinsanpham .row p {
+      font-size: 16px;
+      line-height: 40px;
+      color: #000; }
+  #thongtinsanpham h2 {
+    font-weight: 500;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #0F890E;
+    position: relative;
+    margin: 0 0 30px 0; }
+    #thongtinsanpham h2::after {
+      content: "";
+      width: 139px;
+      height: 2px;
+      background: #0F890E;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      bottom: 0; }
+
 .menu_thuonghieu {
   background-color: #0f8a0e !important;
   padding: 0 15px 100px 15px; }

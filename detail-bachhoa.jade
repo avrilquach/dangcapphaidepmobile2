@@ -4,9 +4,8 @@ html
 	body.m
 		#wrapper_mobile
 			include inc/header.jade
-			include inc/banner.jade
 			// Breadcrumbs
-			section.breadcrumbs.pad30_0.breadcrumbs3
+			section.breadcrumbs.pad10_0.breadcrumbs3
 				.container
 					.row
 						.col-lg-12
@@ -19,22 +18,23 @@ html
 									a(href='#') Porro Furniture
 			// Detail Products
 			section.detailbh
-				.container
+				.container.top
+					h1
+						| Nước ngọt có gas Franklin hương dâu chai 600ml
+					span.thuonghieu Thương hiệu Coca Cola	
+				.gallery
+					.gallery-bachhoa.owl-carousel.owl-theme
+						.item
+							img(src='img/bachhoa/detail.jpg')
+						.item
+							img(src='img/bachhoa/detail.jpg')
+						.item
+							img(src='img/bachhoa/detail.jpg')
+						.item
+							img(src='img/bachhoa/detail.jpg')
+					.slider-counter
+				.container.bottom
 					.row
-						.gallery
-							.gallery-bachhoa.owl-carousel.owl-theme
-								.item
-									img.lazy(data-src='img/bachhoa/image 80.jpg')
-								.item
-									img.lazy(data-src='img/bachhoa/image 80.jpg')
-								.item
-									img.lazy(data-src='img/bachhoa/image 80.jpg')
-								.item
-									img.lazy(data-src='img/bachhoa/image 80.jpg')
-							.slider-counter             
-						h1
-							| Nước ngọt có gas Franklin hương dâu chai 600ml
-						span.thuonghieu Thương hiệu Coca Cola
 						.options
 							span.price 65.000đ
 							span.price-old 105.000đ
@@ -50,15 +50,15 @@ html
 							li
 								.img
 									img(src='img/bachhoa/Frame1.svg', alt='')
-								| Miễn phí ship nội thành TPHCM với hóa đơn từ 1 triệu
+								p Miễn phí ship nội thành TPHCM với hóa đơn từ 1 triệu
 							li
 								.img
 									img(src='img/bachhoa/Frame2.svg', alt='')
-								| Ship hàng trong 30 phút
+								p Ship hàng trong 30 phút
 							li
 								.img
 									img(src='img/bachhoa/Frame3.svg', alt='')
-								| Đặt online giao tận nhà ĐÚNG GIỜ
+								p Đặt online giao tận nhà ĐÚNG GIỜ
 						ul.promotions
 							li
 								span Nguồn gốc: 
@@ -72,5 +72,301 @@ html
 							li
 								span Thành phần: 
 								p Sữa hoàn toàn từ sữa bò tươi, đường, chất ổn định: mono và diglycerit của các axit béo (E471)...
+				section.products2.heading-bachhoa.pad30_0
+					.container
+						h2 sản phẩm liên quan
+						.row
+							.main-products.swiper-container.pad30_0
+								ul.swiper-wrapper
+									-for(i=0;i<8;i++)
+										li.swiper-slide
+											.item
+												a(href="#")
+													.img.hover-img.animated
+														img.lazy(data-src='img/bachhoa/img3.jpg')
+													h5 Bánh gạo One-One Gold vị Phô mai ngô gói 118g
+													span.options
+														span.price
+															span.new 15.000đ
+												a.add-to-cart
+													img(src='img/bachhoa/cart.svg')
+													span Thêm vào giỏ hàng
+				.container#thongtinsanpham
+					h2 thông tin sản phẩm
+					.row
+						h3 Mô tả sản phẩm 
+						h4 Mã sản phẩm: 8934588063176 
+						p Bao bì sản phẩm có thể thay đổi theo nhà cung cấp 
+							br
+							| Cung cấp nước cho ngày dài hoạt động 
+							br
+							| Nước tinh khiết không chứa tạp chất
+							br
+							| Sản phẩm tiện lợi và dễ sử dụng 
+						img(src='img/bachhoa/image 85.jpg')
+					.row
+						h3 Thông tin sản phẩm 
+						p Nước uống Aquafina sẽ cung cấp nguồn nước hoàn toàn sạch, bổ sung lại lượng nước mà bạn bị mất do các vận động trong cả ngày dài. Nước uống tinh khiết luôn rất cần thiết cho cơ thể mỗi người, vì vậy Aquafina sẽ là sự lựa chọn hoàn hảo cho sức khỏe mọi người. Sản phẩm được sản xuất theo công nghệ hiện đại, phương pháp lọc tiên tiến sẽ giữ lại toàn bộ các khoáng chất có lợi trong nước và loại bỏ các tạp chất, mang đến cho người dùng nguồn nước tinh khiết.
+						p Nước uống Aquafina chai 5L thích hợp sử dụng lâu và cho nhiều người. Bạn chỉ cần đậy kín nắp và giữ sản phẩm ở nơi tránh các chất có mùi mạnh hay hóa chất là có thể yên tâm sử dụng.
+					.row
+						img(src='img/bachhoa/image 86.jpg')
+						h3 Thông tin thương hiệu 
+						p Aquafina là một nhãn hiệu sản phẩm nước tinh khiết đóng chai được sản xuất bởi thương hiệu Pepsico - công ty thực phẩm đa quốc gia của Hoa Kỳ, chuyên sản xuất snack và thức uống. Sản phẩm Aquafina bao gồm cả nước không hương vị và có hương vị. Nhãn hiệu Aquafina cũng được cấp phép sử dụng trên nhiều sản phẩm chăm sóc da, bao gồm kem dưỡng môi và kem chống nhăn.
+					.row
+						h3 Hướng dẫn sử dụng 
+						p Uống liền
+					.row
+						h3 Thông tin thương hiệu 
+						p Aquafina là một nhãn hiệu sản phẩm nước tinh khiết đóng chai được sản xuất bởi thương hiệu Pepsico - công ty thực phẩm đa quốc gia của Hoa Kỳ, chuyên sản xuất snack và thức uống. Sản phẩm Aquafina bao gồm cả nước không hương vị và có hương vị. Nhãn hiệu Aquafina cũng được cấp phép sử dụng trên nhiều sản phẩm chăm sóc da, bao gồm kem dưỡng môi và kem chống nhăn.		
+			// InfoPd
+			section.info_detailpd.pad30_0
+				.container
+					h2.first Đánh giá & Nhận xét
+					// Review
+					.reviewvote
+						.row.align-items-center
+							.text-left
+								span.number_total
+									| 3.5
+									i.fa.fa-star
+							ul.right
+								li.active
+									span.number
+										| 5
+										i.fa.fa-star
+									span.line
+										i(style='width: 100%')
+									span.text 10 đánh giá
+								li.active
+									span.number
+										| 4
+										i.fa.fa-star
+									span.line
+										i(style='width: 20%')
+									span.text 3 đánh giá
+								li.active
+									span.number
+										| 3
+										i.fa.fa-star
+									span.line
+										i(style='width: 20%')
+									span.text 3 đánh giá
+								li
+									span.number
+										| 2
+										i.fa.fa-star
+									span.line
+										i
+									span.text 0 đánh giá
+								li
+									span.number
+										| 1
+										i.fa.fa-star
+									span.line
+										i
+									span.text 0 đánh giá
+						a.send-comment(href='#') Gửi đánh giá của bạn
+						.choose
+							span.title Bạn thấy sản phẩm như thế nào (Chọn sao nhé)
+							.choose-star.pad30_0
+								ul
+									li
+										a(href='#')
+											i.fa.fa-star.green
+											span Không thích
+									li
+										a(href='#')
+											i.fa.fa-star.green
+											span Tạm được
+									li
+										a(href='#')
+											i.fa.fa-star.green
+											span Bình thường
+									li
+										a(href='#')
+											i.fa.fa-star.green
+											span Rất tốt
+									li
+										a(href='#')
+											i.fa.fa-star
+											span Tuyệt vời	
+					// Form
+					form.comments-review
+						.form-bg
+							h2 Đánh giá sản phẩm
+							textarea.comments(name='comments')
+							span.options
+								span.files
+									span
+										i.fa.fa-camera
+										| Gửi ảnh
+									input(type='file')
+						span.hoten
+							input(type='text', name='hoten', placeholder='Họ và tên (bắt buộc)')
+						span.submit
+							input(type='text', name='email', placeholder='Email')
+							input(type='submit', value='Gửi')
+					// Count comments
+					.box-comments
+						span.count 500 Bình luận
+						form.search-ct
+							input(type='text', placeholder='Tìm theo nội dung')
+							input(type='submit', value='')
+							i.fa.fa-search
+					// Comments
+					#comments.comments-area
+						.replay_comment
+							.l
+								.name
+									h5 Nguyễn Mạnh Linh
+									.rate
+										span
+											i.fa.fa-star.green(aria-hidden='true')
+										span
+											i.fa.fa-star(aria-hidden='true')
+										span
+											i.fa.fa-star(aria-hidden='true')
+										span
+											i.fa.fa-star(aria-hidden='true')
+										span
+											i.fa.fa-star(aria-hidden='true')
+									.content
+										| - Sản phẩm này có gây tác dụng phụ gì không ạ? Công ty có thể hỗ trợ em không ạ ?
+								.replay
+									a(href='#') Trả lời
+									a(href='#')
+										i.fas.fa-thumbs-up
+										| Thích
+									.time Cách đây 5 giờ
+								.persion-replay
+									i.arrow
+									.pr
+										.head
+											i.fa.fa-user
+											h5 Đẳng cấp phải đẹp
+											span Quản trị viên
+										.msg
+											p Chào bạn, cảm ơn bạn đã quan tâm đến sản phẩm của chúng tôi.
+										.replay
+											a(href='#') Trả lời
+											a(href='#')
+												i.fas.fa-thumbs-up
+												| Hài lòng
+											a(href='#')
+												i.far.fa-thumbs-down
+												| Không hài lòng
+											.time Cách đây 5 giờ
+									.pr
+										.head
+											h5 Phúc
+										.msg
+											p Chào bạn, cảm ơn bạn đã quan tâm đến sản phẩm của chúng tôi.
+										.replay
+											a(href='#') Trả lời
+											.time Cách đây 5 giờ
+									.pr
+										.head
+											i.fa.fa-user
+											h5 Đẳng cấp phải đẹp
+											span Quản trị viên
+										.msg
+											p Chào bạn, cảm ơn bạn đã quan tâm đến sản phẩm của chúng tôi.
+										.replay
+											a(href='#') Trả lời
+											a(href='#')
+												i.fas.fa-thumbs-up
+												| Hài lòng
+											a(href='#')
+												i.far.fa-thumbs-down
+												| Không hài lòng
+											.time Cách đây 5 giờ
+							.l
+								.name
+									h5 Nguyễn Mạnh Linh
+									.rate
+										span
+											i.fa.fa-star.green(aria-hidden='true')
+										span
+											i.fa.fa-star(aria-hidden='true')
+										span
+											i.fa.fa-star(aria-hidden='true')
+										span
+											i.fa.fa-star(aria-hidden='true')
+										span
+											i.fa.fa-star(aria-hidden='true')
+									.content
+										| - Sản phẩm này có gây tác dụng phụ gì không ạ? Công ty có thể hỗ trợ em không ạ ?
+								.replay
+									a(href='#') Trả lời
+									a(href='#')
+										i.fas.fa-thumbs-up
+										| Thích
+									.time Cách đây 5 giờ
+								.persion-replay
+									i.arrow
+									.pr
+										.head
+											i.fa.fa-user
+											h5 Đẳng cấp phải đẹp
+											span Quản trị viên
+										.msg
+											p Chào bạn, cảm ơn bạn đã quan tâm đến sản phẩm của chúng tôi.
+										.replay
+											a(href='#') Trả lời
+											a(href='#')
+												i.fas.fa-thumbs-up
+												| Hài lòng
+											a(href='#')
+												i.far.fa-thumbs-down
+												| Không hài lòng
+											.time Cách đây 5 giờ
+									.pr
+										.head
+											h5 Phúc
+										.msg
+											p Chào bạn, cảm ơn bạn đã quan tâm đến sản phẩm của chúng tôi.
+										.replay
+											a(href='#') Trả lời
+											.time Cách đây 5 giờ
+									.pr
+										.head
+											i.fa.fa-user
+											h5 Đẳng cấp phải đẹp
+											span Quản trị viên
+										.msg
+											p Chào bạn, cảm ơn bạn đã quan tâm đến sản phẩm của chúng tôi.
+										.replay
+											a(href='#') Trả lời
+											a(href='#')
+												i.fas.fa-thumbs-up
+												| Hài lòng
+											a(href='#')
+												i.far.fa-thumbs-down
+												| Không hài lòng
+											.time Cách đây 5 giờ
+							.read-more
+								a(href='#')
+									| Xem thêm 10 đánh giá
+									i.fas.fa-caret-down
+			section.products2.heading-bachhoa.pad30_0
+				.container
+					h2 sản phẩm bán chạy
+					.row
+						.main-products.swiper-container.pad30_0
+							ul.swiper-wrapper
+								-for(i=0;i<8;i++)
+									li.swiper-slide
+										.item
+											a(href="#")
+												.img.hover-img.animated
+													img.lazy(data-src='img/bachhoa/img3.jpg')
+												h5 Bánh gạo One-One Gold vị Phô mai ngô gói 118g
+												span.options
+													span.price
+														span.new 15.000đ
+											a.add-to-cart
+												img(src='img/bachhoa/cart.svg')
+												span Thêm vào giỏ hàng
+			
 			include inc/footer.jade
-			include inc/script.jade
+			include inc/script3.jade
