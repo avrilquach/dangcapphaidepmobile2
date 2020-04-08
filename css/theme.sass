@@ -149,7 +149,7 @@ img
   &.bg_white
     background-color: #fff
   #header
-    background-color: #dbc2c6
+    background-color: #0F890E
 
     &.header2
       background-color: #0f8a0e
@@ -186,7 +186,7 @@ img
       width: 30px
       padding: 0 5px
       position: relative
-
+      float: right
       span
         position: absolute
         top: -5px
@@ -201,8 +201,32 @@ img
         line-height: 20px
 
   .banner .main-banner
-    padding: 0 10px
-
+    .item
+      position: relative
+      .caption
+        position: absolute
+        left: 15px
+        top: 30px
+        z-index: 20
+        width: 300px
+      h2
+        font-size: 21px
+        color: #78A206
+        margin: 0 0 5px 0
+      p
+        font-size: 30px
+        text-transform: uppercase
+        color: #E49B00
+        margin: 0 0 10px 0
+      span
+        width: 74px
+        height: 23px
+        background: #78A206
+        border-radius: 30px
+        display: block
+        font-size: 12px
+        color: #fff
+        text-align: center
     .owl-stage-outer
       background: #fff
       border-radius: 5px
@@ -429,7 +453,7 @@ img
     margin: 10px 0 0 0
 
     ul li.swiper-slide
-      padding: 0 10px
+      padding: 0 10px 0 0
 
     .nav-tabs
       border-bottom: none
@@ -3414,59 +3438,34 @@ img
           display: none
 
 .form-box-search
-  position: absolute
-  top: 0
   width: 100%
-  height: 700vh
-  background: #fff
-  left: 0
-  right: 0
-  z-index: 16
-
   .search__input
-    background: #0f8a0e
-    padding: 10px
-    display: -webkit-box
-    display: -ms-flexbox
-    display: flex
-    display: -webkit-flex
-    -webkit-box-align: center
-    -ms-flex-align: center
-    align-items: center
-    -webkit-box-pack: justify
-    -ms-flex-pack: justify
-    justify-content: space-between
-
+    padding: 15px 0
     #form_s
-      -webkit-box-flex: 1
-      -ms-flex-positive: 1
-      flex-grow: 1
+      height: 33px
+      width: 100%
       background: #fff
-      margin: 0 10px 0 0
-      border-radius: 5px
-      padding: 5px 0
-      -webkit-box-align: center
-      -ms-flex-align: center
-      align-items: center
-      display: -webkit-box
-      display: -ms-flexbox
-      display: flex
-      display: -webkit-flex
-
-      input
-        -webkit-box-flex: 1
-        -ms-flex-positive: 1
-        flex-grow: 1
+      position: relative
+      border-radius: 3px
+      input[type='text']
+        width: 100%
+        height: 33px
         border: none
-
+        border-radius: 3px
+        padding: 0 60px 0 10px
+      input[type='submit']
+        position: absolute
+        right: 0
+        top: 0
+        width: 50px
+        height: 33px
+        opacity: 0
+        z-index: 10
       i
-        margin: 0 10px
-
-    .cancelSearch
-      color: #fff
-
-      &:hover
-        color: #fff
+        position: absolute
+        right: 18px
+        top: 10px
+        color: #ABABAB
 .menu-spa-tri-lieu
   ul
     li

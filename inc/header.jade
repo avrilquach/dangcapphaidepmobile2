@@ -1,18 +1,22 @@
 // Header
-header#header.pad40_30
+header#header.padtp15_0
   .nav-top
     .container
       .row.align-items-end.justify-content-between
         .col-2
           a.menu-click(href='javascript:void(0)')
             img(src='img/i-bars.png', alt='')
-        .col-7
+        .col-8
           a.logo-mobile(href='#')
             img(src='img/logo.png', alt='')
-        .col-3.row.align-items-end.justify-content-between
-          .search
-            a(href='javascript:void(0)')
-              img(src='img/i-search.png', alt='')
+        .col-2.justify-content-end
           .cart
             img(src='img/i-cart.png', alt='')
             span 5
+      .row
+        .form-box-search
+          .search__input
+            form#form_s
+              input(type='text', name='search_pro', placeholder='Bạn cần tìm gì hôm nay ?')
+              input(type='submit' value='') 
+              i.fa.fa-search
