@@ -444,7 +444,7 @@ img {
           background: #0f890e; }
       #wrapper_mobile .products2 .item h5 {
         font-size: 14px;
-        line-height: 24px;
+        line-height: 20px;
         text-align: center;
         color: #212121;
         margin: 0 0 5px 0; }
@@ -518,7 +518,7 @@ img {
         #wrapper_mobile .products2 .item .add-to-cart span {
           text-transform: uppercase;
           font-weight: bold;
-          font-size: 8px;
+          font-size: 7px;
           line-height: 16px;
           text-transform: uppercase;
           color: #FFFFFF; }
@@ -537,6 +537,9 @@ img {
       margin: 0 auto; }
     #wrapper_mobile .products2 .main-products ul li {
       width: 40%; }
+      @media (max-width: 320px) {
+        #wrapper_mobile .products2 .main-products ul li {
+          width: 45%; } }
     #wrapper_mobile .products2 .main-products.main-products2 ul li {
       width: 50%;
       float: left; }
