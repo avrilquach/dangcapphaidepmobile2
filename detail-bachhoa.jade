@@ -1,10 +1,76 @@
 doctype html
 html
-  include inc/head.jade
-  body.m
-    #wrapper_mobile
-      include inc/header.jade
-      include inc/banner.jade
-    
-      include inc/footer.jade
-      include inc/script.jade
+	include inc/head.jade
+	body.m
+		#wrapper_mobile
+			include inc/header.jade
+			include inc/banner.jade
+			// Breadcrumbs
+			section.breadcrumbs.pad30_0.breadcrumbs3
+				.container
+					.row
+						.col-lg-12
+							ul
+								li
+									a(href='#') Home 
+								li
+									a(href='#') Milk & Cream
+								li
+									a(href='#') Porro Furniture
+			// Detail Products
+			section.detailbh
+				.container
+					.row
+						.gallery
+							.gallery-bachhoa.owl-carousel.owl-theme
+								.item
+									img.lazy(data-src='img/bachhoa/image 80.jpg')
+								.item
+									img.lazy(data-src='img/bachhoa/image 80.jpg')
+								.item
+									img.lazy(data-src='img/bachhoa/image 80.jpg')
+								.item
+									img.lazy(data-src='img/bachhoa/image 80.jpg')
+							.slider-counter             
+						h1
+							| Nước ngọt có gas Franklin hương dâu chai 600ml
+						span.thuonghieu Thương hiệu Coca Cola
+						.options
+							span.price 65.000đ
+							span.price-old 105.000đ
+						.options.options2
+							span.number
+								span -
+								input(type='text' value='1')
+								span +
+							a.add-to-cart2
+								img(src='img/bachhoa/cart.svg')
+								span Thêm vào giỏ hàng
+						ul.description
+							li
+								.img
+									img(src='img/bachhoa/Frame1.svg', alt='')
+								| Miễn phí ship nội thành TPHCM với hóa đơn từ 1 triệu
+							li
+								.img
+									img(src='img/bachhoa/Frame2.svg', alt='')
+								| Ship hàng trong 30 phút
+							li
+								.img
+									img(src='img/bachhoa/Frame3.svg', alt='')
+								| Đặt online giao tận nhà ĐÚNG GIỜ
+						ul.promotions
+							li
+								span Nguồn gốc: 
+								p nhập khẩu 
+							li 
+								span Dung tích: 
+								p 220.0 ml 
+							li 
+								span Ngày hết hạn: 
+								p 6 tháng kể từ ngày sản xuất 
+							li
+								span Thành phần: 
+								p Sữa hoàn toàn từ sữa bò tươi, đường, chất ổn định: mono và diglycerit của các axit béo (E471)...
+			include inc/footer.jade
+			include inc/script.jade
