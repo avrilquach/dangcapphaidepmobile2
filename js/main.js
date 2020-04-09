@@ -166,4 +166,12 @@ $(document).ready(function() {
 	$('.loadcate span').click(function(e){
 		$('.loadcate').removeClass('active');
 	})
+	$("#thongtinsanpham .ctent").slice(0, 1).css("display","block");
+	$('a.xem-them').click(function(e){
+		var _this = $(this).parent().parent().parent().parent();
+		_this.find(".ctent:hidden").slice(0, 1).css("display","block");
+		 $('html,body').animate({
+            scrollTop: $(this).offset().top-(315)
+        }, 1500);
+	});
 });
